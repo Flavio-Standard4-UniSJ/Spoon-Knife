@@ -3,15 +3,25 @@
   padding:0px;
 }
 
-#octocat {
+body {
+  background-color: aliceblue;   
+} 
+
+header, section, footer {
   display: block;
-  width:384px;
-  margin: 50px auto;
 }
 
-p {
+p, a {
   display: block;
   width: 400px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  text-decoration: none;
+  color:grey;
+}
+
+#octocat {
+  display: block;
+  width: 384px;
+  margin: 50px auto;
 }

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  display: flex;
+  background-color: azure;
+}
+a, p {
+  font: 18px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+  text-decoration: none;
+}
+.menu-bar{
+    width: 30px;
+    height: 2px;
+    margin-bottom: 5px;
+    background-color: black;
+}
+header {
+    width: 20vw;
+    height: 100vh;
+    background-color: red;
+}
+section {
+    width: 80vw;
+    height: 100vh;
+}

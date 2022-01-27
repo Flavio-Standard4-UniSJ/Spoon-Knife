@@ -54,7 +54,7 @@ section {
     margin: 20px auto;
     border-radius: 10px;
 }
-.card-op img, .card-op div{
+.card-op img, .card-op div, .card-op p {
     justify-content: space-between;
 }
 .card-op img {
@@ -62,4 +62,16 @@ section {
     margin-right: 10px;
     width: 40%;
     height: 85%;
+}
+.card-op > div > p {
+    display: none;
+}
+.card-op .botao-ver-mais {
+    display: block;
+    font-size: 35px;
+    background-color: tomato;
+    padding: 15px;
+    border-radius: 100%;
+    align-items: center;
+    color: white;
 }

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery.js"></script>
+    <title>eventos em jquery</title>
+</head>
+<body>
+    <div style="margin: 0 auto; width: 500px; height: 200px; background-color: brown; color: white;">
+        <p>Flamengo é o Melhor <br /><br />
+            <span>Clube do Brasil</span>
+        </p>
+    </div>
+    <script>
+        //ao inserir esse comando s-o o elemento clicado é mostrado
+        $("div").click(()=>{ alert("clique no elemento DIV")});
+        $("p").click((event)=>{ event.stopPropagation();alert("clique no elemento P")});
+        $("span").click((event)=>{ event.stopPropagation();alert("clique no elemento SPAN")});
+    </script>
+</body>
+</html>

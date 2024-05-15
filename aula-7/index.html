@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery.js"></script>
+    <title>eventos em jquery</title>
+</head>
+<body>
+    <h1 id="demo1">Flávio é o mais inteligente.</p>
+    <h2 id="demo2">Flavio é o melhor.</h2>
+    <p id="resultado"></p>
+    <script>
+        $(document).click((event)=>{
+            $("#resultado").text("Objeto clicado: "+event.target.tagName);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery.js"></script>
+    <title>aula 11 jquery</title>
+</head>
+<body>
+    <h4>using function siblings, next, prev, prevAll e prevUntil</h4>
+    <div>
+        <span>
+            <h3>
+                Flamengo, o mais querido do Brasil, é o campeão brasileiro de 2019 e 2020
+            </h3>
+            <p>
+                Flamengo, o mais querido do Brasil, é o campeão da copa do Brasil de 2022
+            </p>
+            <!--<span style="display: block;">
+                Zico é foda
+            </span>-->
+            <h2>
+                Flamengo, o mais querido do Brasil, é o campeão da libertadores de 2019 e 2022
+            </h2>
+            <p>
+                siblings
+            </p>
+            <!--<h4>
+                Flamengo, o mais querido do Brasil, é o campeão do mundo em 1981
+            </h4>-->
+        </span>
+    </div>
+    <script>
+        // $("h3").siblings().css({ "border":"2px solid red" });
+        // $("h2").siblings().css({ "border":"2px solid blue" });
+        // $("h2").siblings("p").css({ "border":"2px solid green" });
+        // $("h3").next().css({ "border":"2px solid yellow" });
+        // $("h2").next().css({ "border":"2px solid orange" });
+        // $("p").next().css({ "border":"2px solid pink" });
+        // $("h2").prev().css({ "border":"2px solid pink" });
+        $("h2").prevUntil('h3').css({ "border":"2px solid black" });
+        // $("h2").prevAll().css({ "border":"2px solid grey" });
+    </script>
+</body>
+</html>

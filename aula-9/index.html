@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery.js"></script>
+    <title>aula 9 jquery</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                <h3>Flamengo</h3>
+                <span>O mais querido do Brasil</span>
+                <p>é o campeão estadual de 2024</p>
+            </li>
+        </ul>
+    </div>
+    <script>
+        //$("p").parent().css({"border": "2px solid #f00"});
+        //$("li").parent().css({"border": "2px solid #00f"});
+        //$("ul").parent().css({"border": "2px solid #0f0"});
+        //$("div").parent().css({"border": "2px solid yellow"});
+        //$("body").parent().css({"border": "2px solid pink"});
+
+        //coloca borda em todos elementos pai da tag p
+        //$("p").parents().css({"border": "2px solid pink"}); 
+
+        //coloca borda em todos elementos pai da tag p até a tag div
+        $("p").parentsUntil("ul").css({"border": "2px solid grey"});
+
+        //coloca borda em todos elementos pai da tag p até a tag div
+        //$("p").parentsUntil("div").css({"border": "2px solid blue"});
+
+    </script>
+</body>
+</html>

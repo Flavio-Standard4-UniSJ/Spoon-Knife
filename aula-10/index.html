@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../jquery.js"></script>
+    <title>aula 10 jquery</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>
+                Flamengo, o mais querido do Brasil, é o campeão brasileiro de 2019 e 2020
+            </li>
+            <li>
+                Flamengo, o mais querido do Brasil, é o campeão da copa do Brasil de 2022
+            </li>
+            <li>
+                Flamengo, o mais querido do Brasil, é o campeão da libertadores de 2019 e 2022
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Flamengo, o mais querido do Brasil, é o malvadão
+            </li>
+            <li>
+                Flamengo, o mais querido do Brasil, é fodástico
+            </li>
+            <li>
+                Flamengo, o mais querido do Brasil, é terror do arco-iris
+            </li>
+        </ul>
+        <ul>
+            <li>
+                Flamengo, o mais querido do Brasil, campeão da Recopa sulamericana
+            </li>
+            <li>
+                Flamengo, o mais querido do Brasil, campeão da supercopa do Brasil
+            </li>
+            <li>
+                Flamengo, o mais querido do Brasil, tri campeão estadual
+            </li>
+        </ul>
+    </div>
+    <script>
+        //$("div").children().css({ "border": "2px solid #f00" })
+        //$("ul").children().css({ "border": "2px solid #0f0" })
+        //$("div").find("ul").css({ "border": "2px solid #0f0" })
+        //$("div").find("ul:first").css({ "border": "2px solid #0f0" }) //last
+        $("div").find("ul:last").css({ "border": "2px solid #0f0" }) 
+        //$("div").find("*").css({ "border": "2px solid #0f0" })
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70vw;
+    height: 50vh;
+    background-color: rgb(248, 239, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+#title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+button{
+    width: 100%;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
